@@ -1,0 +1,201 @@
+ <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Admin</title>
+<link href="mystyle.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<table width="780"  border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="780">
+	
+<!--<link href="../css/bootstrap.min.css" rel="stylesheet">-->
+<link href="tracking_style.css" rel="stylesheet" type="text/css"/>
+<link href="style.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+<!--
+.style2 {color: #FFFFFF}
+-->
+</style>
+
+<!--header-->
+<div class="header">
+        
+        <img src="logo.png" alt="" class="logo">
+
+</div>
+<!--header-->
+<!--menu-->
+<ul> 
+    <li><a href="addshipment.html">Add</a></li>
+    <li><a href="update.html">Update</a></li>
+    <li><a href="search-edit.html">Search & Edit</a></li>
+    <li><a href="delivered-report.html">Delivered</a></li>
+</ul>
+<!--menu end-->
+<div class="bot_menu p_a">
+<div align="right">
+<a href="index.php">Home</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+Change Password&nbsp;(disabled)&nbsp;|&nbsp;&nbsp;
+<a href="logout.php">Logout</a></div>
+</div>
+	</td>
+  </tr>
+  
+  <tr>
+    <td bgcolor="#FFFFFF">
+<table width="98%"  border="0" align="center">
+	<tr>
+    
+    <td><h3 class="h3_head">Delivered Reports</h3></td>
+    
+    </tr>
+    <!--<tr>
+      <td align="left" bgcolor="#FFFFFF" class="LargeBlue">&nbsp;</td>
+    </tr>
+    <tr>
+      <td align="left" bgcolor="#FFFFFF" class="LargeBlue"><div align="center" class="Partext1"><strong>Delivered Reports </strong></div></td>
+    </tr>-->
+  </table>
+ <form name="frmShipment" method="post" action="modify_shipment.php">
+
+
+  
+  <table width="95%" border="0" align="center" cellpadding="1" cellspacing="1">
+    <tr>
+      <td><span class="redtext">
+	  Previous | 1&nbsp;Next      </span></td>
+    </tr>
+  </table>
+  <table width="95%"  border="0" align="center" cellpadding="1" cellspacing="1" class="blackbox">
+    <tr bgcolor="#FFFFFF" class="BoldRED">
+      <td width="4%" bgcolor="#EDEDED" class="BoldRED"><input type="checkbox" name="chkAll" onClick="this.value=check(this.form)"></td>
+     
+      <td width="10%" bgcolor="#EDEDED" class="newtext">Consignment No </td>
+      <td width="7%" bgcolor="#EDEDED" class="newtext">Origin</td>
+      <td width="11%" bgcolor="#EDEDED" class="newtext">Destination</td>
+      <td width="11%" bgcolor="#EDEDED" class="newtext">Pickup Date/Time</td>
+      <td width="9%" bgcolor="#EDEDED" class="newtext">Status</td>
+    </tr>
+         <TR bgcolor="#FFFFFF" onMouseOver="this.bgColor='gold';" onMouseOut="this.bgColor='#FFFFFF';">
+	
+      <td class="gentxt"><span class="BoldRED">
+        <input type="checkbox" name="chkDelete[]" value="29">
+      </span></td>
+     
+      <td class="gentxt">855596</td>
+      <td class="gentxt">La Molina</td>
+      <td class="gentxt">Surquillo</td>
+      <td class="gentxt">27/03/2017 - 
+        00:00</td>
+      <td class="gentxt">DELIVERED</td>
+    </tr>
+    <tr bgcolor="#FFFFFF" class="MediumText">
+      <td height="1" colspan="7" bgcolor="#E8F3FF"></td>
+      </tr>
+         <TR bgcolor="#FFFFFF" onMouseOver="this.bgColor='gold';" onMouseOut="this.bgColor='#FFFFFF';">
+	
+      <td class="gentxt"><span class="BoldRED">
+        <input type="checkbox" name="chkDelete[]" value="28">
+      </span></td>
+     
+      <td class="gentxt">0</td>
+      <td class="gentxt">Surquillo</td>
+      <td class="gentxt">Salamanca - Ate</td>
+      <td class="gentxt">27/03/2017 - 
+        09:00</td>
+      <td class="gentxt">DELIVERED</td>
+    </tr>
+    <tr bgcolor="#FFFFFF" class="MediumText">
+      <td height="1" colspan="7" bgcolor="#E8F3FF"></td>
+      </tr>
+         <TR bgcolor="#FFFFFF" onMouseOver="this.bgColor='gold';" onMouseOut="this.bgColor='#FFFFFF';">
+	
+      <td class="gentxt"><span class="BoldRED">
+        <input type="checkbox" name="chkDelete[]" value="22">
+      </span></td>
+     
+      <td class="gentxt">KL712267</td>
+      <td class="gentxt">mundampallam</td>
+      <td class="gentxt">edappally</td>
+      <td class="gentxt">20/03/2017 - 
+        11:13</td>
+      <td class="gentxt">DELIVERED</td>
+    </tr>
+    <tr bgcolor="#FFFFFF" class="MediumText">
+      <td height="1" colspan="7" bgcolor="#E8F3FF"></td>
+      </tr>
+         <TR bgcolor="#FFFFFF" onMouseOver="this.bgColor='gold';" onMouseOut="this.bgColor='#FFFFFF';">
+	
+      <td class="gentxt"><span class="BoldRED">
+        <input type="checkbox" name="chkDelete[]" value="20">
+      </span></td>
+     
+      <td class="gentxt">D10001071</td>
+      <td class="gentxt">BALLABGARH</td>
+      <td class="gentxt">BANGALORE</td>
+      <td class="gentxt">07/03/2017 - 
+        18:00</td>
+      <td class="gentxt">DELIVERED</td>
+    </tr>
+    <tr bgcolor="#FFFFFF" class="MediumText">
+      <td height="1" colspan="7" bgcolor="#E8F3FF"></td>
+      </tr>
+         <TR bgcolor="#FFFFFF" onMouseOver="this.bgColor='gold';" onMouseOut="this.bgColor='#FFFFFF';">
+	
+      <td class="gentxt"><span class="BoldRED">
+        <input type="checkbox" name="chkDelete[]" value="19">
+      </span></td>
+     
+      <td class="gentxt">ed125369</td>
+      <td class="gentxt">delhi</td>
+      <td class="gentxt">mumbai</td>
+      <td class="gentxt">15/03/2017 - 
+        16:33</td>
+      <td class="gentxt">DELIVERED</td>
+    </tr>
+    <tr bgcolor="#FFFFFF" class="MediumText">
+      <td height="1" colspan="7" bgcolor="#E8F3FF"></td>
+      </tr>
+         <TR bgcolor="#FFFFFF" onMouseOver="this.bgColor='gold';" onMouseOut="this.bgColor='#FFFFFF';">
+	
+      <td class="gentxt"><span class="BoldRED">
+        <input type="checkbox" name="chkDelete[]" value="18">
+      </span></td>
+     
+      <td class="gentxt">OD10726802024</td>
+      <td class="gentxt">New Delhi</td>
+      <td class="gentxt">Chhattisgarh</td>
+      <td class="gentxt">17/03/2017 - 
+        08:16</td>
+      <td class="gentxt">DELIVERED</td>
+    </tr>
+    <tr bgcolor="#FFFFFF" class="MediumText">
+      <td height="1" colspan="7" bgcolor="#E8F3FF"></td>
+      </tr>
+      </table>
+  <table width="95%" border="0" align="center" cellpadding="1" cellspacing="1">
+    <tr>
+      <td><input type="submit" name="Submit" value="Delete" onClick="return confirmDel(this.form,'Are you sure to Delete');">
+        <input name="mode" type="hidden" id="mode" value="delete"></td>
+    </tr>
+  </table>
+  <br>
+</form>
+	
+    </td>
+  </tr>
+  <tr>
+    <td><div class="footer_a">
+
+<p class="fot_p">Copyright &copy; 2017 Tracking4web.com - All Right Reserved</p>
+
+</div>
+<!--footer end--></td>
+  </tr>
+</table>
+</body>
+</html>

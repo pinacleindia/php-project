@@ -1,0 +1,186 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+/*@import url('https://fonts.googleapis.com/css?family=Voltaire');*/
+body
+{
+	margin:30px 10px;
+	padding:0px;
+	/*background:url(../img/light_grey.jpg);*/
+	background:url(../img/bg.png);
+	font-family: 'Roboto', sans-serif;
+	/*font-family: 'Fredoka One', cursive;
+	font-family: 'Voltaire', sans-serif;*/
+}
+/*.start {
+    margin-top: 1%;
+}*/
+.white_bg { background:#fff;}
+.header
+{
+	width:100%;
+	height:auto;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#06437a+0,2484d8+100 */
+background: #06437a; /* Old browsers */
+background: -moz-linear-gradient(top,  #06437a 0%, #2484d8 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #06437a 0%,#2484d8 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #06437a 0%,#2484d8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#06437a', endColorstr='#2484d8',GradientType=0 ); /* IE6-9 */
+	border-radius:10px 10px 0 0;
+	-webkit-border-radius:10px 10px 0 0;
+	-moz-border-radius:10px 10px 0 0;
+	-ms-border-radius:10px 10px 0 0;
+	-o-border-radius:10px 10px 0 0;
+}
+.logo
+{
+	font-size:48px;
+	color:#fff;
+	margin:25px 0;
+	font-family: 'Fredoka One', cursive;
+}
+.logo a { color:#fff;}
+.logo a:hover { color:#ffcc00;}
+.center_txt { font-size:14px; text-align:center; line-height:25px;}
+.p_txt { font-size:14px; line-height:25px;}
+/*******Menu******/
+.menu_bg { 
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffcc00+0,ffa719+100 */
+background: #a91605; /* Old browsers */
+background: -moz-linear-gradient(top,  #ffcc00 0%, #ffa719 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #ffcc00 0%,#ffa719 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #ffcc00 0%,#ffa719 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffcc00', endColorstr='#ffa719',GradientType=0 ); /* IE6-9 */
+ }
+.navbar-inverse { 
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffcc00+0,ffa719+100 */
+background: #ffcc00; /* Old browsers */
+background: -moz-linear-gradient(top,  #ffcc00 0%, #ffa719 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #ffcc00 0%,#ffa719 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #ffcc00 0%,#ffa719 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffcc00', endColorstr='#ffa719',GradientType=0 ); /* IE6-9 */
+ border:#ffcc00;
+ }
+.navbar { margin-bottom:0px; min-height:30px;}
+navbar-brand { position: relative; z-index: 2; }
+.navbar-inverse .navbar-nav > li > a { color:#000;}
+.navbar-inverse .navbar-nav > li > a:hover { color:#fff;}
+.navbar-nav.navbar-right .btn { position: relative; z-index: 2; padding: 4px 20px; margin: 10px auto; }
+
+.navbar .navbar-collapse { position: relative; }
+.navbar .navbar-collapse .navbar-right > li:last-child { padding-left: 22px; }
+
+.navbar .nav-collapse { position: absolute; z-index: 1; top: 0; left: 0; right: 0; bottom: 0; margin: 0; padding-right: 120px; padding-left: 80px; width: 100%; }
+.navbar.navbar-default .nav-collapse { background-color: #f8f8f8; }
+.navbar.navbar-inverse .nav-collapse { background-color: #222; }
+.navbar .nav-collapse .navbar-form { border-width: 0; box-shadow: none; }
+.nav-collapse>li { float: right; }
+
+.btn.btn-circle { border-radius: 50px; }
+.btn.btn-outline { background-color: transparent; }
+
+@media screen and (max-width: 767px) {
+    .navbar .navbar-collapse .navbar-right > li:last-child { padding-left: 15px; padding-right: 15px; } 
+    
+    .navbar .nav-collapse { margin: 7.5px auto; padding: 0; }
+    .navbar .nav-collapse .navbar-form { margin: 0; }
+    .nav-collapse>li { float: none; }
+}
+.box
+{	
+	height:auto;	
+	border:1px solid #ccc;
+	border-radius:10px; -webkit-border-radius:10px; -moz-border-radius:10px; -ms-border-radius:10px; -o-border-radius:10px;
+	margin-bottom:10px;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e3f1fe+0,ffffff+100 */
+background: #e3f1fe; /* Old browsers */
+background: -moz-linear-gradient(top,  #e3f1fe 0%, #ffffff 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #e3f1fe 0%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #e3f1fe 0%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e3f1fe', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+   margin:10px 10px;	
+}
+.one-edge-shadow {
+  -webkit-box-shadow: 0 8px 6px -6px black;
+     -moz-box-shadow: 0 8px 6px -6px black;
+          box-shadow: 0 8px 6px -6px black;
+}
+/*******Menu******/
+.footer
+{
+	background:#004177;
+	width:100%;
+	height:auto;
+	border-radius:0 0 10px 10px; -webkit-border-radius:0 0 10px 10px; -moz-border-radius:0 0 10px 10px;
+-ms-border-radius:0 0 10px 10px; -o-border-radius:0 0 10px 10px;
+}
+.footer p { font-size:14px; text-align:center; line-height:20px; color:#fff; margin-top:10px; }
+.tab_ch { font-size:14px; margin-bottom:5px;}
+/**No more Table**/
+@media only screen and (max-width: 800px) {
+    
+    /* Force table to not be like tables anymore */
+	#no-more-tables table, 
+	#no-more-tables thead, 
+	#no-more-tables tbody, 
+	#no-more-tables th, 
+	#no-more-tables td, 
+	#no-more-tables tr { 
+		display: block; 
+	}
+ 
+	/* Hide table headers (but not display: none;, for accessibility) */
+	#no-more-tables thead tr { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+ 
+	#no-more-tables tr { border: 1px solid #ccc; }
+ 
+	#no-more-tables td { 
+		/* Behave  like a "row" */
+		border: none;
+		border-bottom: 1px solid #eee; 
+		position: relative;
+		padding-left: 50%; 
+		white-space: normal;
+		text-align:left;
+	}
+ 
+	#no-more-tables td:before { 
+		/* Now like a table header */
+		position: absolute;
+		/* Top/left values mimic padding */
+		top: 6px;
+		left: 6px;
+		width: 45%; 
+		padding-right: 10px; 
+		white-space: nowrap;
+		text-align:left;
+		font-weight: bold;
+	}
+ 
+	/*
+	Label the data
+	*/
+	#no-more-tables td:before { content: attr(data-title); }
+}
+/**No more Table end**/
+
+/*******Responsive******/
+@media (min-width:1200px)
+{
+.container { width: 1000px;	}
+}
+@media (min-width:320px) and (max-width:500px)
+{
+.lo_rs { font-size:28px; padding:20px 10px;}
+/*.box_sm { width:100%;}*/
+}
+@media (min-width:510px) and (max-width:900px)
+{
+.lo_rs { font-size:28px; padding:20px 10px;}
+/*.box { width:auto;}*/
+}

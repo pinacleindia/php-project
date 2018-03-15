@@ -1,0 +1,118 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Admin</title>
+<link href="mystyle.css" rel="stylesheet" type="text/css">
+
+
+</head>
+
+<body>
+<table width="780"  border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="780"><!--<link href="../css/bootstrap.min.css" rel="stylesheet">-->
+<link href="tracking_style.css" rel="stylesheet" type="text/css"/>
+<link href="style.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+<!--
+.style2 {color: #FFFFFF}
+-->
+</style>
+
+<!--header-->
+<div class="header">
+        
+        <img src="logo.png" alt="" class="logo">
+
+</div>
+<!--header-->
+<!--menu-->
+<ul> 
+    <li><a href="addshipment.html">Add</a></li>
+    <li><a href="update.html">Update</a></li>
+    <li><a href="search-edit.html">Search & Edit</a></li>
+    <li><a href="delivered-report.html">Delivered</a></li>
+</ul>
+<!--menu end-->
+<div class="bot_menu p_a">
+<div align="right">
+<a href="index.php">Home</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+Change Password&nbsp;(disabled)&nbsp;|&nbsp;&nbsp;
+<a href="logout.php">Logout</a></div>
+</div>
+    </td>
+  </tr>
+  <tr>
+    <td bgcolor="#FFFFFF">
+      <table width="100%" border="0" align="center" cellpadding="1" cellspacing="1">
+        <tr>
+          <td class="Partext1">&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="Partext1"><div align="center">
+            <table width="70%" align="center" cellpadding="4"  cellspacing="0" >
+              <form action="new_track_submit.php" method="post" name="form1" id="form1" onsubmit="return validate()">
+                <tr>
+                  <td colspan="2" valign="top" class="TrackTitle"><!--<div align="center" class="newtext"><strong> <br />
+                    <br />
+                    Enter Consignment Number <br />
+                    </span></strong></div>-->
+                    <h3 class="h3_head">Enter Consignment Number</h3>
+                    </td>
+                </tr>
+                <!--<tr>
+                  <td colspan="2" valign="middle" class="bottom">&nbsp;</td>
+                </tr>-->
+                
+                <tr bgcolor="EFEFEF">
+                  <td height="34" colspan="2" valign="top" bgcolor="#FFFFFF" class="aalpha"><div align="center" class="gentxt"><strong>Key in the Shipment Number to MODIFY the data. This is helpful if you have made spelling errors while adding the shipment.</strong><br />
+                    <br />
+                    </div></td>
+                </tr>
+                <tr bgcolor="EFEFEF">
+                  <!--      <td width="26%" valign="top" ><div align="right">Please Select </div></td>
+                <td width="74%" valign="top" ><div align="left">
+                  <select name="box" class="gentxt" id="box">
+                    <option value="Consignment No">Consignment No</option>
+                    <option value="Invoice No">Invoice No</option>
+                  </select>
+                </div></td> -->
+                  </tr>
+                <tr bgcolor="EFEFEF">
+                  <td valign="top" ><div align="right">Enter Consignment number </div></td>
+                  <td valign="top" ><div align="left">
+                    <input name="track" type="text" class="gentxt" id="track"  maxlength="50" />
+                    </div></td>
+                </tr>
+                <tr bgcolor="EFEFEF">
+                  <td height="41" valign="top" >&nbsp;</td>
+                  <td valign="top" ><div align="left">
+                    <input name="Submit" type="submit" class="gentxt" value="Submit" />
+                    </div></td>
+                </tr>
+                <tr bgcolor="EFEFEF">
+                  <td colspan="2" valign="top" bgcolor="#FFFFFF" class="TrackNormalBlue">&nbsp;</td>
+                </tr>
+                </form>
+            </table>
+          </div></td>
+        </tr>
+        <tr>
+          <td class="Partext1">&nbsp;</td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+      </table></td></tr>
+  <tr>
+    <td><div class="footer_a">
+
+<p class="fot_p">Copyright &copy; 2017 Tracking4web.com - All Right Reserved</p>
+
+</div>
+<!--footer end--></td>
+  </tr>
+</table>
+</body>
+</html>
